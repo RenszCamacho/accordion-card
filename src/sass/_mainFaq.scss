@@ -1,0 +1,17 @@
+.main {
+  &__wrapFaq {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__contentFaq {
+    padding: 2rem;
+  }
+
+  &__arrow {
+    display: none;
+  }
+}
