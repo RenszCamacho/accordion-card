@@ -15,5 +15,41 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
+    position: relative;
+  }
+
+  &__contentImg {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__paternDesk {
+    width: 200%;
+    height: 200%;
+    display: block;
+    position: absolute;
+    top: -38rem;
+    left: -83.2rem;
+    z-index: 1;
+  }
+
+  &__illustrationDesk {
+    position: absolute;
+    width: 85%;
+    top: 8rem;
+    left: -10rem;
+    z-index: 2;
+  }
+
+  &__boxDesk {
+    position: absolute;
+    width: 17%;
+    top: 23.9rem;
+    left: -11rem;
+    z-index: 10;
+  }
+
+  &__arrow {
+    display: none;
   }
 }
