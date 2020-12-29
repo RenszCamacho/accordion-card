@@ -1,0 +1,16 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: $bg-gradient;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__card {
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    border-radius: 4rem;
+    box-shadow: -0.2rem 5.4rem 4.3rem rgba($color: #000000, $alpha: 0.2);
+  }
+}
