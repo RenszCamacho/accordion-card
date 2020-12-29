@@ -1,3 +1,1 @@
-# Bundler Boiler Plate. 💫
-
-- A boiler plate to start.
+# FAQ Accordion Card. 💫
