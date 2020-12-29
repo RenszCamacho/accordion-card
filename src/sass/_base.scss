@@ -1,0 +1,20 @@
+// variables
+
+// primary text
+$primary-text-dark: hsl(238, 29%, 16%);
+$primary-text-red: hsl(14, 88%, 65%);
+
+// neutral text
+$neutral-text-dark: hsl(237, 12%, 33%);
+$neutral-text-gray: hsl(240, 6%, 50%);
+
+// dividers
+$dividers: hsl(240, 5%, 91%);
+
+// background gradient
+$bg-gradient: linear-gradient(
+  180deg,
+  rgba(0, 0, 0, 1) 0%,
+  rgba(175, 103, 233, 1) 0%,
+  rgba(101, 101, 231, 1) 100%
+);
