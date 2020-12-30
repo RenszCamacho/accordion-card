@@ -40,9 +40,12 @@
   }
 
   &__answer {
+    position: relative;
     color: $neutral-color-gray;
-    padding-bottom: 2rem;
-    display: none;
+    height: 0;
+    overflow: hidden;
+    transition: all 500ms;
+    overflow-y: auto;
   }
 
   &__arrow {
