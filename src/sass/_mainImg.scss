@@ -16,11 +16,22 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     position: relative;
+
+    @include rwd(large) {
+      grid-template-columns: 1fr;
+      grid-gap: 0;
+      width: 32.8rem;
+      height: 53.5rem;
+    }
   }
 
   &__contentImg {
     position: relative;
     overflow: hidden;
+
+    @include rwd(large) {
+      overflow: unset;
+    }
   }
 
   &__paternDesk {
@@ -31,6 +42,13 @@
     top: -30rem;
     left: -55.2rem;
     z-index: 1;
+
+    @include rwd(large) {
+      width: 24rem;
+      height: 23.7rem;
+      top: -13.3rem;
+      left: 4rem;
+    }
   }
 
   &__illustrationDesk {
@@ -40,6 +58,13 @@
     top: 8rem;
     left: -8rem;
     z-index: 2;
+
+    @include rwd(large) {
+      width: 24rem;
+      height: 18.2rem;
+      top: -11rem;
+      left: 4rem;
+    }
   }
 
   &__boxDesk {
@@ -48,5 +73,12 @@
     top: 20.9rem;
     left: -9rem;
     z-index: 10;
+
+    @include rwd(large) {
+      width: 10rem;
+      height: 9.6rem;
+      top: -4.3rem;
+      left: 3.1rem;
+    }
   }
 }

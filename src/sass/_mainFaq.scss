@@ -5,11 +5,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include rwd(large) {
+      height: 0;
+    }
   }
 
   &__contentFaq {
     width: 100%;
     padding-right: 6rem;
+
+    @include rwd(large) {
+      padding: 3rem;
+    }
   }
 
   &__title {
