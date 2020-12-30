@@ -8,10 +8,44 @@
   }
 
   &__contentFaq {
-    padding: 2rem;
+    width: 100%;
+    padding-right: 6rem;
+  }
+
+  &__title {
+    font-size: 2.8rem;
+    color: $primary-color-dark;
+  }
+
+  &__wrapQuestion {
+    border-bottom: 1px solid $dividers;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  &__question {
+    font-size: 1.6rem;
+    color: $neutral-color-gray;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+
+    &:hover {
+      color: $primary-color-red;
+    }
+  }
+
+  &__answer {
+    color: $neutral-color-gray;
+    padding-bottom: 2rem;
+    display: none;
   }
 
   &__arrow {
-    display: none;
+    width: fit-content;
   }
 }
