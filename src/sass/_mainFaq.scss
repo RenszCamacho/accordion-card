@@ -19,6 +19,20 @@
 
   &__wrapQuestion {
     border-bottom: 1px solid $dividers;
+
+    &.active .main__answer {
+      height: auto;
+      padding-bottom: 2rem;
+    }
+
+    &.active .main__question {
+      color: $primary-color-dark;
+      font-weight: 700;
+    }
+
+    &.active .main__arrow {
+      transform: rotate(0.5turn);
+    }
   }
 
   &__container {
@@ -30,7 +44,7 @@
 
   &__question {
     font-size: 1.6rem;
-    color: $neutral-color-gray;
+    color: $neutral-color-dark;
     transition: all 200ms ease-out;
     cursor: pointer;
 
@@ -44,11 +58,14 @@
     color: $neutral-color-gray;
     height: 0;
     overflow: hidden;
-    transition: all 500ms;
+    transition: all 250ms;
     overflow-y: auto;
   }
 
   &__arrow {
     width: fit-content;
+    padding: 0.6rem;
+    cursor: pointer;
+    transition: all 200ms ease-out;
   }
 }
