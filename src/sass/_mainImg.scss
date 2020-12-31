@@ -32,7 +32,10 @@
       width: 32.8rem;
       height: 53.5rem;
       border-radius: 2rem;
-      margin-top: 10rem;
+      margin: {
+        top: 15rem;
+        bottom: 10rem;
+      }
     }
 
     @include rwd(small) {
