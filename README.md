@@ -8,7 +8,7 @@ https://accordion-card.netlify.app/
 
 # FAQ Accordion - Frontend Mentor Challenge.
 
-This is a bautiful challenge from Frontend Mentor. Using Css Flex-box and Css Grid.
+This is a Frontend Mentor Challenge, newbie-level. A beautiful challenge that I've really enjoyed it. Using Css Flex-box and Css Grid. Pure HTML CSS and JS. (No frameworks)
 
 - To get started:
 
