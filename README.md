@@ -1,4 +1,4 @@
-<img src="./src/images/display.png" alt="home-page" style="height: 100px; width:100px;" />
+<img src="./src/images/display.jpg" alt="home-page" style="height: 100px; width:100px;" />
 
 ## Link. 🔗
 
@@ -9,6 +9,20 @@ https://accordion-card.netlify.app/
 # FAQ Accordion - Frontend Mentor Challenge.
 
 This is a Frontend Mentor Challenge, newbie-level. A beautiful challenge that I've really enjoyed it. Using Css Flex-box and Css Grid. Pure HTML CSS and JS. (No frameworks)
+
+# Challenge Requirements.
+
+## The challenge
+
+Your challenge is to build out this FAQ accordion card and get it looking as close to the design as possible.
+
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+Your users should be able to:
+
+- View the optimal layout for the component depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Hide/Show the answer to a question when the question is clicked
 
 - To get started:
 
