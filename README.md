@@ -28,9 +28,10 @@ Your users should be able to:
 
 ## Clone the repository
 
-````bash
+```bash
 git https://github.com/RenszCamacho/accordion-card
-cd accordion-card```
+cd accordion-card
+```
 
 ## Install the dependencies
 
@@ -40,7 +41,7 @@ npm install
 
 #Using yarn
 yarn
-````
+```
 
 ## Run it live
 
