@@ -4,7 +4,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b206fc76-b4a6-474a-97c6-c0b5faa4f943/deploy-status)](https://app.netlify.com/sites/accordion-card/deploys)
 
-https://accordion-card.netlify.app/
+[Accordion Card](https://accordion-card.netlify.app/)
 
 # FAQ Accordion - Frontend Mentor Challenge.
 
